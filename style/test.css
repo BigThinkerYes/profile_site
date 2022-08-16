@@ -126,6 +126,7 @@ body {
   border-bottom: var(--line);
 }
 /*inner content*/
+
 .description {
   color: var(--color-grey-dark-1);
   /* background-color: orange; */
@@ -133,6 +134,9 @@ body {
   padding: 3rem;
   flex: 0 0 60%;
   margin-right: 4.5rem;
+}
+.desc {
+  flex: 0 0 100%;
 }
 .user-reviews {
   background-color: rgb(72, 43, 96);

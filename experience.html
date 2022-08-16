@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style/test.css" />
+    <link rel="stylesheet" href="style/jscss.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
     <title>home</title>
@@ -102,7 +103,7 @@
           </div>
           <!-- /--------------------------/ -->
           <div class="detail">
-            <div class="description">
+            <div class="description desc">
               <p class="paragraph">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Aspernatur ab nostrum quia tenetur alias, maxime excepturi
@@ -115,7 +116,7 @@
                 pariatur amet iure odit hic accusamus sint magni minus doloribus
                 inventore. Numquam, assumenda laudantium.
               </p>
-              <ul class="list">
+              <!-- <ul class="list">
                 <li class="list__item">ideas today</li>
                 <li class="list__item">ideas today</li>
                 <li class="list__item">ideas today</li>
@@ -124,11 +125,41 @@
                 <li class="list__item">ideas today</li>
                 <li class="list__item">ideas today</li>
                 <li class="list__item">ideas today</li>
-              </ul>
+              </ul> -->
+              <section class="lis2">
+                <button onclick="generateColors()">Generate</button>
+                <div class="colors-container">
+                  <div class="color-box">
+                    <h2>box</h2>
+                  </div>
+                  <!-- // -->
+                  <div class="color-box">
+                    <h2>box</h2>
+                  </div>
+                  <!-- // -->
+                  <div class="color-box">
+                    <h2>box</h2>
+                  </div>
+                  <!-- // -->
+                  <div class="color-box">
+                    <h2>box</h2>
+                  </div>
+                  <!-- // -->
+                  <div class="color-box">
+                    <h2>box</h2>
+                  </div>
+                  <!-- // -->
+                  <div class="color-box">
+                    <h2>box</h2>
+                  </div>
+                  <!-- // -->
+                </div>
+              </section>
+
               <!-- // -->
               <div class="recommend">
                 <p class="recommend__count">
-                  Lucy and 3 other friends recommend this hotel.
+                  Press the button to change the color.
                 </p>
                 <div class="recommend__friends">
                   <img
@@ -155,51 +186,6 @@
               </div>
             </div>
             <!-- // -->
-
-            <div class="user-reviews">
-              <figure class="review">
-                <blockquote class="review__text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Fugit quidem repellat laudantium maxime pariatur sequi
-                  voluptatum asperiores corporis autem.
-                </blockquote>
-                <figcaption class="review__user">
-                  <img
-                    src="img/user-1.jpg"
-                    alt="User 1"
-                    class="review__photo"
-                  />
-                  <div class="review__user-box">
-                    <p class="review__user-name">Nick Smith</p>
-                    <p class="review__user-date">Feb 23rd, 2023</p>
-                  </div>
-                  <div class="review__rating">7.8</div>
-                </figcaption>
-              </figure>
-              <!-- // -->
-              <figure class="review">
-                <blockquote class="review__text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam
-                  commodi alias quae praesentium? Esse aut vero corrupti
-                  expedita quam error odio earum tempore minima nostrum?
-                  Temporibus necessitatibus fugit ab dolorem.
-                </blockquote>
-                <figcaption class="review__user">
-                  <img
-                    src="img/user-2.jpg"
-                    alt="User 1"
-                    class="review__photo"
-                  />
-                  <div class="review__user-box">
-                    <p class="review__user-name">Mary Thomas</p>
-                    <p class="review__user-date">Sept. 13th, 2023</p>
-                  </div>
-                  <div class="review__rating">9.3</div>
-                </figcaption>
-              </figure>
-              <!-- // -->
-              <button class="btn-inline">Show all<span>&rarr;</span></button>
-            </div>
           </div>
           <div class="cta">
             <h2 class="cta__book-now">
@@ -215,5 +201,6 @@
         <footer></footer>
       </div>
     </div>
+    <script src="scripts/functions.js"></script>
   </body>
 </html>

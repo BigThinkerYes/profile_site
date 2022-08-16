@@ -29,3 +29,14 @@ button {
   font-size: 1.5rem;
   cursor: pointer;
 }
+/*----------------------------------------*/
+.hold {
+  border: solid #ccc 4px;
+}
+.hovered {
+  background: #f4f4f4;
+  border-style: dashed;
+}
+.invisible {
+  display: none;
+}

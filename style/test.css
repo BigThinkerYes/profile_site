@@ -138,6 +138,13 @@ body {
 .desc {
   flex: 0 0 100%;
 }
+.shark {
+  display: flex;
+  background-image: url("../img/shark-2.jpg");
+  background-size: cover;
+  height: 50rem;
+  width: 100%;
+}
 .user-reviews {
   background-color: rgb(72, 43, 96);
   flex: 1;
@@ -668,6 +675,12 @@ body {
     /*8/16 = 0.5 *100 = 50*/
     font-size: 50%;
   }
+  .detail {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    flex-direction: inherit;
+  }
 }
 /*900px/16 = 56.25em*/
 @media only screen and (max-width: 56.25em) {
@@ -695,6 +708,10 @@ body {
     display: none;
   }
   .detail {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    flex-direction: inherit;
     padding: 3rem;
   }
   .description {
@@ -707,6 +724,9 @@ body {
   }
   .cta {
     padding: 2.5rem 0;
+  }
+  .desc {
+    flex: 0 0 100%;
   }
 }
 /*600/16 = 37.5*/
@@ -742,6 +762,18 @@ body {
   .overview__rating-count {
     font-size: 0.5rem;
   }
+  .desc {
+    flex: 0 0 100%;
+  }
+  .detail {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media only screen and (max-width: 31.25em) {
   .header {
@@ -753,6 +785,18 @@ body {
     order: 1; /*move to the right of the screen*/
     flex: 0 0 100%;
     background-color: var(--color-grey-light-2);
+  }
+  .desc {
+    flex: 0 0 100%;
+  }
+  .detail {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    width: 100%;
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: center;
   }
 }
 /*________

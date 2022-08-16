@@ -1,0 +1,28 @@
+flexbox properties overview
+
+CONTAINER
+_________
+flex-direction : row | row-reverse | column | column-reverse
+
+flex-wrap: nonwrap | wrap | wrap-reverse
+
+justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly
+
+align-items: stretch | flex-start | flex-end | center | baseline
+
+align-content: stretch | flex-start | flex-end | center | space-between | space-around
+_______________________________________________________________________________________________
+_______________________________________________________________________________________________
+
+ITEM
+____
+align-self: auto | stretch | flex-start | flex-end | center | baseline (aligns single item)
+
+order: 0 | <integer> (order of item)
+
+------------[short hand properties]----------[for below]--------flex: 0 1 auto ---[<int><int><len>]
+flex-grow: 0 | <integer>
+
+flex-shrink: 1 | <integer>
+
+flex-basis: auto | <length> (define width)

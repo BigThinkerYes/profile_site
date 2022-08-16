@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/test.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>home</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="img/logo.png" alt="Profile logo" class="logo" />
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search Profile"
+          />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+        <nav class="user-nav">
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">13</span>
+          </div>
+          <div class="user-nav__user">
+            <img
+              src="img/user.jpg"
+              alt="User photo"
+              class="user-nav__user-photo"
+            />
+            <span class="user-nav__user-name">Lavor</span>
+          </div>
+        </nav>
+      </header>
+      <!--/nav and body/-->
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <!-- // -->
+            <li class="side-nav__item">
+              <a href="index.html" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Home</span>
+              </a>
+            </li>
+            <!-- // -->
+            <li class="side-nav__item side-nav__item--active">
+              <a href="bio_page.html" class="side-nav__link">
+                <span>Bio</span>
+              </a>
+            </li>
+            <!-- // -->
+            <li class="side-nav__item">
+              <a href="experience.html" class="side-nav__link">
+                <span>Experience</span>
+              </a>
+            </li>
+            <!-- // -->
+            <li class="side-nav__item">
+              <a href="portfolio.html" class="side-nav__link">
+                <span>Portfolio</span>
+              </a>
+            </li>
+            <!-- // -->
+          </ul>
+          <!-- <div class="legal">legal</div> -->
+        </nav>
+        <!-- // -->
+        <main class="hotel-view">
+          <div class="overview">
+            <h1 class="overview__heading">Lavor D. Reed</h1>
+
+            <div class="overview__location">
+              <svg class="overview__icon-location">
+                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+              </svg>
+              <button class="btn-inline">Location, Texas</button>
+              <!-- // -->
+            </div>
+            <!-- // -->
+            <div class="overview__rating">
+              <div class="overview__rating-average">4th</div>
+              <div class="overview__rating-count">week</div>
+            </div>
+            <!--  -->
+          </div>
+          <!-- /--------------------------/ -->
+          <div class="detail">
+            <div class="description">
+              <h1>Bio.</h1>
+              <p class="paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur ab nostrum quia tenetur alias, maxime excepturi
+                pariatur amet iure odit hic accusamus sint magni minus doloribus
+                inventore. Numquam, assumenda laudantium.
+              </p>
+              <ul class="list">
+                <li class="list__item">Professional Title: Apprentice</li>
+                <li class="list__item">Role: SRE Data Developer</li>
+                <li class="list__item">Location: Irving Texas</li>
+                <li class="list__item">Company: Verizon</li>
+              </ul>
+              <!-- // -->
+              <h1>In the Works:</h1>
+              <div class="recommend">
+                <p class="recommend__count">
+                  <ul class="list">
+                    <li class="list__item">Cloud Technology</li>
+                    <li class="list__item">Docker</li>
+                    <li class="list__item">AWS</li>
+                    <li class="list__item">Kubernetes</li>
+                    <li class="list__item">Azure</li>
+                    <li class="list__item">Security</li>
+                    <li class="list__item">Networking</li>
+                    <li class="list__item">Dev Ops</li>
+                    <li class="list__item">MicroServices</li>
+                  </ul>
+                </p>
+              </div>
+              
+            </div>
+            <!-- // -->
+
+            <div class="user-reviews">
+              <figure class="review">
+                <h1>Plugins</h1>
+                <blockquote class="review__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Fugit quidem repellat
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="img/logo.png"
+                    alt="User 1"
+                    class="review__photo"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">Created:</p>
+                    <p class="review__user-date">Feb 23rd, 2023</p>
+                  </div>
+                  <div class="review__rating">v7.8</div>
+                </figcaption>
+              </figure>
+              <!-- // -->
+              <figure class="review">
+                <h1>Updates</h1>
+                <blockquote class="review__text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam
+                </blockquote>
+                <figcaption class="review__user">
+                  <img
+                    src="img/logo.png"
+                    alt="User 1"
+                    class="review__photo"
+                  />
+                  <div class="review__user-box">
+                    <p class="review__user-name">Created:</p>
+                    <p class="review__user-date">Sept. 13th, 2023</p>
+                  </div>
+                  <div class="review__rating">v9.3</div>
+                </figcaption>
+              </figure>
+              <!-- // -->
+              <button class="btn-inline-2">Show all<span>&rarr;</span></button>
+            </div>
+          </div>
+          <div class="cta">
+            <h2 class="cta__book-now">
+              Test your skills and see if you can beat the clock.
+            </h2>
+            <button class="btn">
+              <span class="btn__visible">ARE U READY</span>
+              <span class="btn__invisible">TO TYPE IT</span>
+            </button>
+          </div>
+          <!-- /--------------------------/ -->
+        </main>
+        <!-- <footer>Test profile site</footer> -->
+      </div>
+    </div>
+  </body>
+</html>
